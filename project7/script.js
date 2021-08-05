@@ -10,7 +10,15 @@ const notification = document.getElementById('notification-container');
 const figureParts = document.querySelectorAll('.figure-part');
 
 // This is the pool of words which will be used to select a random word
-const words = ["scientist","song","built","word","spell","value","support","heavy","men","dead","bad","here","street","dream","eventually","original","broad","floating","daily","tool","swimming","mostly","escape","fourth","within","government","somewhere","means","fight","section","longer","clear","creature","situation","who","were","turn","table","sure","sugar","sister","wool"];
+const words = ["song","built","word","spell","value","support","heavy","men","dead","bad","here","street","dream","eventually","original","broad","floating","daily","tool","swimming","mostly","escape","fourth","within","government","somewhere","means","fight","section","longer","clear","creature","situation","who","were","turn","table","sure","sugar","sister","wool"];
+
+
+
+
+
+
+
+
 // const words = ["bad","no"];
 
 // Select a word at random from words array
@@ -131,3 +139,5 @@ playBtn.addEventListener('click', () => {
 
 // Execute displayWord on page load
 displayWord();
+
+
