@@ -29,7 +29,7 @@ function displayTransaction(transaction) {
     // Assign the inner HTML for the transaction li
     transactionLI.innerHTML = `
         ${transaction.reason} <span>${transaction.amount}</span>
-        <button class="delete-btn" onclick="deleteTransaction(${transaction.id})" >X</button>
+        <button class="delete-btn" onclick="deleteTransaction(${transaction.id})" >Remove</button>
     `;
     // Add the li in the DOM under the transaction history list
     list.appendChild(transactionLI);
